@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\clsHELPER.vb" />
+    <Compile Include="Clases\modRutinas.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
