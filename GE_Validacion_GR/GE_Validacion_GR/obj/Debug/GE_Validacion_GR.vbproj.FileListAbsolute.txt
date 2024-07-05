@@ -12,3 +12,16 @@ C:\Users\MLEON\Desktop\GE_Validacion_GR_App\GE_Validacion_GR\GE_Validacion_GR\bi
 C:\Users\MLEON\Desktop\GE_Validacion_GR_App\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.vbproj.AssemblyReference.cache
 C:\Users\MLEON\Desktop\GE_Validacion_GR_App\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.vbproj.CoreCompileInputs.cache
 C:\Users\MLEON\Desktop\GE_Validacion_GR_App\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.vbproj.CopyComplete
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\bin\Debug\GE_Validacion_GR.exe.config
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\bin\Debug\GE_Validacion_GR.exe
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\bin\Debug\GE_Validacion_GR.pdb
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\bin\Debug\GE_Validacion_GR.xml
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.vbproj.AssemblyReference.cache
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.Form1.resources
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.Resources.resources
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.vbproj.GenerateResource.cache
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.vbproj.CoreCompileInputs.cache
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.vbproj.CopyComplete
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.exe
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.xml
+D:\Unidad D - 20201107\Fuentes\SIGE - DEV - GITHUB\sige--.net--ge_validacion_gr\GE_Validacion_GR\GE_Validacion_GR\obj\Debug\GE_Validacion_GR.pdb

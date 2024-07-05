@@ -198,9 +198,9 @@ Public Class Form1
     End Function
 
     Private Sub tmProgramacion_Tick(sender As Object, e As EventArgs) Handles tmProgramacion.Tick
-        'Hilo = New Threading.Thread(AddressOf RevisandoProcesosPorNotificar)
-        'Hilo.Start()
-        RevisandoProcesosPorNotificar()
+        Hilo = New Threading.Thread(AddressOf RevisandoProcesosPorNotificar)
+        Hilo.Start()
+        'RevisandoProcesosPorNotificar()
     End Sub
 
     Private Sub BackgroundWorker1_DoWork(sender As Object, e As System.ComponentModel.DoWorkEventArgs) Handles BackgroundWorker1.DoWork
@@ -208,22 +208,30 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'Me.CodEmpresa = ConfigurationSettings.AppSettings("Empresa").ToString
-        'DefinirConexionSIGE(ConfigurationSettings.AppSettings("SIGELink").ToString, "SEGURIDAD")
+        Me.CodEmpresa = ConfigurationSettings.AppSettings("Empresa").ToString
+        DefinirConexionSIGE(ConfigurationSettings.AppSettings("SIGELink").ToString, "SEGURIDAD")
 
-        Me.CadenaDeConexion_Operaciones_VBNet = "Initial Catalog=sige_stn;Data Source=192.168.30.55;Integrated Security = SSPI"
-        Me.CadenaDeConexion_Seguridad_VBNet = "Initial Catalog=Seguridad;Data Source=192.168.30.55;Integrated Security = SSPI"
+        'Me.CadenaDeConexion_Operaciones_VBNet = "Initial Catalog=sige_stn;Data Source=192.168.30.55;Integrated Security = SSPI"
+        'Me.CadenaDeConexion_Seguridad_VBNet = "Initial Catalog=Seguridad;Data Source=192.168.30.55;Integrated Security = SSPI"
 
         Dim oDt As DataTable = oHP.DevuelveDatos(String.Format("Select * FROM SEG_Empresas where cod_empresa = '{0}'", Me.CodEmpresa), Me.CadenaDeConexion_Seguridad_VBNet)
-        'colEmpresa = Color.FromArgb(oDt.Rows(0)("ColorFondo_R"), oDt.Rows(0)("ColorFondo_G"), oDt.Rows(0)("ColorFondo_B"))
-        colEmpresa = Color.FromArgb(193, 208, 222)
-
-        tmProgramacion.Interval = 60000 * 30
-        tmProgramacion.Enabled = True
+        colEmpresa = Color.FromArgb(oDt.Rows(0)("ColorFondo_R"), oDt.Rows(0)("ColorFondo_G"), oDt.Rows(0)("ColorFondo_B"))
+        'colEmpresa = Color.FromArgb(193, 208, 222)
+        panHeader.BackColor = colEmpresa
+        Me.tmProgramacion.Interval = ConfigurationSettings.AppSettings("Intervalo").ToString '60000 * 30
+        Me.tmProgramacion.Enabled = True
         'Timer = New Timer();
         '    Timer.Interval = 1000; // Intervalo de 1 segundo (1000 milisegundos)
         '    Timer.Enabled = True;
         '    Timer.Tick += Timer_Tick;
         'tmProgramacion_Tick(sender, e)
+    End Sub
+
+    Private Sub panHeader_Paint(sender As Object, e As PaintEventArgs) Handles panHeader.Paint
+        FondoDegradeDiagonalEnPanel(sender, e, colEmpresa)
+    End Sub
+
+    Private Sub PictureBox2_Paint(sender As Object, e As PaintEventArgs) Handles PictureBox2.Paint
+        'FondoDegradeDiagonalEnPanel(sender, e, colEmpresa)
     End Sub
 End Class
