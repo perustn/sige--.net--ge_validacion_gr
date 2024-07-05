@@ -104,7 +104,8 @@ Partial Class Form1
         '
         'tmProgramacion
         '
-        Me.tmProgramacion.Interval = 5000
+        Me.tmProgramacion.Enabled = True
+        Me.tmProgramacion.Interval = 900000
         '
         'BackgroundWorker1
         '
